@@ -3,8 +3,8 @@
 int main(int argc, char* argv[]){
     
     int idade;
-    double altura;
-    double peso;
+    float altura;
+    float peso;
     printf("Digite a idade: ");
     scanf("%d", &idade);
     printf("Digite o peso: ");
@@ -20,6 +20,6 @@ int main(int argc, char* argv[]){
     float dobro_peso = peso * 2;
     float IMC = peso / (altura * altura);
     
-    printf("O seu valor de IMC eh: %.2f")
+    printf("O seu valor de IMC eh: %.2f\n", IMC);
     return 0;
 }
