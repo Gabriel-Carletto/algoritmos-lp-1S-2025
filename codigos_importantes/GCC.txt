@@ -1,0 +1,5 @@
+git clone https://github.com/Gabriel-Carletto/algoritmos-lp-1S-2025.git
+git config user.name Gabriel-Carletto
+gut config user.email gabriellanius@outlook.com
+gcc main.c -o ola
+.\ola
