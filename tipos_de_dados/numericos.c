@@ -7,13 +7,11 @@ int main(int argc, char* argv[]){
     double peso;
     printf("Digite a idade: ");
     scanf("%d", &idade);
-    getchar();
     printf("Digite o peso: ");
     scanf("%f", &peso);
-    getchar();
     printf("Digite a altura: ");
     scanf("%f", &altura);
-    getchar();
+    
 
      printf("A idade eh: %d\n", idade); 
     printf("A altura eh: %.2f\n", altura);
