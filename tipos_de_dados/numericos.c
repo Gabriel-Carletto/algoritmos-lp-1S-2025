@@ -7,6 +7,6 @@ int main(int argc, char* argv[]){
     double peso = 72.56;
     printf("A idade eh: %d\n", idade); 
     printf("A altura eh: %f\n", altura);
-    printf ("O peso eh: %d\n", peso);
+    printf ("O peso eh: %f\n", peso);
     return 0;
 }
