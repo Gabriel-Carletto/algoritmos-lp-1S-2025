@@ -3,4 +3,4 @@ git config user.name Gabriel-Carletto
 gut config user.email gabriellanius@outlook.com
 gcc main.c -o ola
 .\x , onde x é qualque exe.
-
+8 bit's = 1 byte.
