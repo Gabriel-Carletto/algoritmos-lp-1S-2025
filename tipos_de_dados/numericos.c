@@ -6,12 +6,14 @@ int main(int argc, char* argv[]){
     float altura ;
     double peso ;
     printf("Digite a idade: ");
-    getchar
     scanf("%d", &idade);
+    getchar();
     printf("Digite o peso: ");
     scanf("%.2f", &peso);
+    getchar();
     printf("Digite a altura: ");
     scanf("%.2f", &altura);
+    getchar();
 
      printf("A idade eh: %d\n", idade); 
     printf("A altura eh: %.2f\n", altura);
