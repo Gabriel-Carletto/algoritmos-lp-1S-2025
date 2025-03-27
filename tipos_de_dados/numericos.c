@@ -6,7 +6,7 @@ int main(int argc, char* argv[]){
     float altura = 2.34;
     double peso = 72.56;
     printf("A idade eh: %d\n", idade); 
-    printf("A altura eh: %f\n", altura);
-    printf ("O peso eh: %f\n", peso);
+    printf("A altura eh: %.2f\n", altura);
+    printf ("O peso eh: %.2f\n", peso);
     return 0;
 }
