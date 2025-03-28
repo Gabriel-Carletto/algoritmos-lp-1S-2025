@@ -1,6 +1,6 @@
-git clone https://github.com/Gabriel-Carletto/algoritmos-lp-1S-2025.git
-git config user.name Gabriel-Carletto
-git config user.email gabriellanius@outlook.com
+git clone https://github.com/*************.git
+git config user.name ***************
+git config user.email ***************
 gcc main.c -o ola
 .\x , onde x é qualque exe.
 8 bit's = 1 byte.
