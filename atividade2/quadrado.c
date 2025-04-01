@@ -11,7 +11,7 @@ int main(int argc, char* argv[]){
 
     float area_do_quadrado = (Lado_Quadrado * Lado_Quadrado);
     
-    printf("O valor do lado do quadrado eh: %2.f/n", Lado_Quadrado)
+    printf("O valor do lado do quadrado eh: %2.f/n", Lado_Quadrado);
     printf("A area do quadrado eh: %.2f", area_do_quadrado);
     
     return 0;

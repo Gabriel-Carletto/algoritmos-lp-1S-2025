@@ -11,9 +11,10 @@ int main(int argc, char* argv[]){
 
     float area_do_circulo_parte_1 = (raio * raio);
     float area_do_circulo_parte_2 = (area_do_circulo_parte_1 * PI);
-    printf("O valor de PI eh: %2.f/n", PI)
-    printf("O valor do raio eh: %2.f/n", raio)
-    printf("A area do losango eh: %.2f/n", area_do_circulo_parte_2);
+    
+    printf("O valor de PI eh: %2.f", PI);
+    printf("O valor do raio eh: %2.f/n", raio);
+    printf("A area do circulo eh: %.2f/n", area_do_circulo_parte_2);
 
     return 0;
 }
