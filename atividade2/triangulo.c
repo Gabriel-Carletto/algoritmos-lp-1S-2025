@@ -11,6 +11,10 @@ int main(int argc, char* argv[]){
 
     float area_do_triangulo_parte_1 = (Base_Triangulo * Altura_Triangulo);
     float area_do_triangulo_parte_2 = (area_do_triangulo_parte_1 / 2);
+    
+    
+    printf("O valor da base do trangulo eh: %2.f/n", Base_Triangulo)
+    printf("O valor da altura do triangulo eh: %2.f/n", Altura_Triangulo)
     printf("A area do triangulo eh: %.2f", area_do_triangulo_parte_2);
     
     

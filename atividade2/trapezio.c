@@ -12,6 +12,11 @@ int main(int argc, char* argv[]){
     float area_do_trapezio_parte_1 = (Base_Trapezio_maior + base_trapezio_menor);
     float area_do_trapezio_parte_2 = (area_do_trapezio_parte_1 * Altura_Trapezio);
     float area_do_trapezio_parte_3 = (area_do_trapezio_parte_2 / 2);
+   
+   
+    printf("O valor da base maior eh: %2.f/n", Base_Trapezio_maior)
+    printf("O valor da base menor eh: %2.f/n", base_trapezio_menor)
+    printf("O valor da altura eh: %2.f/n", Altura_Trapezio)
     printf("A area do trapezio eh: %.2f", area_do_trapezio_parte_3);
     
 
