@@ -6,8 +6,14 @@ int main(int argc, char* argv[]){
     // Cálculo da área de um Triângulo:
     // Suponha um triângulo de base 6cm e altura 4cm
          
-    float Base_Triangulo = 6;
-    float Altura_Triangulo = 4;
+    float Base_Triangulo;
+    float Altura_Triangulo;
+
+    
+    printf("Por favor, digite o valor da base do triangulo: ");
+    scanf("%f", &Base_Triangulo);
+    printf("Por favor, digite o valor da altura do triangulo: ");
+    scanf("%f", &Altura_Triangulo);
 
     float area_do_triangulo_parte_1 = (Base_Triangulo * Altura_Triangulo);
     float area_do_triangulo_parte_2 = (area_do_triangulo_parte_1 / 2);

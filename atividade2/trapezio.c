@@ -4,14 +4,25 @@
 int main(int argc, char* argv[]){
     
     // Cálculo da área de um Trapézio:
-    // Suponha um Trapézio de base maior 6cm, base menor 3cm ealtura 4cm
+    
          
-    float Base_Trapezio_maior = 6;
-    float Altura_Trapezio = 4;
-    float base_trapezio_menor = 3;
+    float Base_Trapezio_maior;
+    float Altura_Trapezio;
+    float base_trapezio_menor;
+    
+    
+    printf("Por favor, digite o valor da base maior do trapezio: ");
+    scanf("%f", &Base_Trapezio_maior);
+    printf("Por favor, digite o valor da altura do trapezio: ");
+    scanf("%f", &Altura_Trapezio);
+    printf("Por favor, digite o valor da base menor do trapezio: ");
+    scanf("%f", &base_trapezio_menor);
+  
+    
     float area_do_trapezio_parte_1 = (Base_Trapezio_maior + base_trapezio_menor);
     float area_do_trapezio_parte_2 = (area_do_trapezio_parte_1 * Altura_Trapezio);
     float area_do_trapezio_parte_3 = (area_do_trapezio_parte_2 / 2);
+   
    
    
     printf("O valor da base maior eh: %2.f/n", Base_Trapezio_maior);

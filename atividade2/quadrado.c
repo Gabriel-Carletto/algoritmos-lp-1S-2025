@@ -4,15 +4,18 @@
 int main(int argc, char* argv[]){
 
     // Cálculo da área de um Quadrado:
-    // Suponha um Quadrado de base 6cm e altura 6cm
+
          
-    float Lado_Quadrado = 6;
+    float Lado_Quadrado;
+    
+    printf("Por favor, digite o valor do lado do quadrado: ");
+    scanf("%f", &Lado_Quadrado);
     
 
     float area_do_quadrado = (Lado_Quadrado * Lado_Quadrado);
     
-    printf("O valor do lado do quadrado eh: %2.f/n", Lado_Quadrado);
-    printf("A area do quadrado eh: %.2f", area_do_quadrado);
+    printf("O valor do lado do quadrado eh: %2.f\n", Lado_Quadrado);
+    printf("A area do quadrado eh: %.2f\n", area_do_quadrado);
     
     return 0;
 }
