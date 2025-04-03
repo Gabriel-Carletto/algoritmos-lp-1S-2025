@@ -4,7 +4,7 @@
 int main(int argc, char* argv[]){
 
     // Cálculo da área de um Triângulo:
-    // Suponha um triângulo de base 6cm e altura 4cm
+    
          
     float Base_Triangulo;
     float Altura_Triangulo;
