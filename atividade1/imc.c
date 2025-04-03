@@ -27,13 +27,13 @@ int main(int argc, char* argv[]){
         printf("Voce esta com sobrepeso! hora de dieta e malhar! Ficar bem eh bom para o corpo! \n");}
 
     if (30 <= IMC && IMC <= 34.9){
-        printf("Voce esta com obesidade 1! alerta! recomendasse procurar um medico! \n");}
+        printf("Voce esta com obesidade I! alerta! recomendasse procurar um medico! \n");}
     
     if (35 <= IMC && IMC <= 39.9){
-        printf("Voce esta com obesidade 2! Va procurar um medico imediatamente! \n");}
+        printf("Voce esta com obesidade II! Va procurar um medico imediatamente! \n");}
 
     if (IMC > 39.9){
-        printf("Voce esta com obesidade 3! Como ce ta vivo irmao? \n");}
+        printf("Voce esta com obesidade III! Como ce ta vivo irmao? \n");}
     
     return 0;
 }
