@@ -19,7 +19,7 @@ int main(int argc, char* argv[]){
     printf("O valor de PI eh: %2.f\n", PI);
     printf("O valor do raio eh: %2.f\n", raio);
     printf("A area do circulo eh: %.2f\n", area_do_circulo_parte_2);
-
+    printf("----------------------------------------------- \n");
     // Cálculo da área de um Losango:
             
     float Diagonal_Maior;
@@ -37,7 +37,7 @@ int main(int argc, char* argv[]){
     printf("O valor da diagonal maior eh: %2.f\n", Diagonal_Maior);
     printf("O valor da diagonal menor eh: %2.f\n", Diagonal_Menor);
     printf("A area do losango eh: %.2f\n", area_do_Losango_parte_2);
-
+    printf("----------------------------------------------- \n");
      // Cálculo da área de um Quadrado:
 
          
@@ -51,7 +51,7 @@ int main(int argc, char* argv[]){
     
     printf("O valor do lado do quadrado eh: %2.f\n", Lado_Quadrado);
     printf("A area do quadrado eh: %.2f\n", area_do_quadrado);
-
+    printf("----------------------------------------------- \n");
     // Cálculo da área de um Rentângulo:
          
     float Base_Retangulo;
@@ -68,7 +68,7 @@ int main(int argc, char* argv[]){
     printf("O valor da base do retangulo eh: %2.f\n", Base_Retangulo);
     printf("O valor da altura do retangulo eh: %2.f\n", Altura_Retangulo);
     printf("A area do retangulo eh: %.2f\n", area_do_retangulo);
-
+    printf("----------------------------------------------- \n");
        // Cálculo da área de um Trapézio:
     
          
@@ -95,7 +95,7 @@ int main(int argc, char* argv[]){
     printf("O valor da base menor eh: %2.f\n", base_trapezio_menor);
     printf("O valor da altura eh: %2.f\n", Altura_Trapezio);
     printf("A area do trapezio eh: %.2f\n", area_do_trapezio_parte_3);
-
+    printf("----------------------------------------------- \n");
         // Cálculo da área de um Triângulo:
     
          
@@ -115,7 +115,7 @@ int main(int argc, char* argv[]){
     printf("O valor da base do trangulo eh: %2.f\n", Base_Triangulo);
     printf("O valor da altura do triangulo eh: %2.f\n", Altura_Triangulo);
     printf("A area do triangulo eh: %.2f\n", area_do_triangulo_parte_2);
-
+    printf("----------------------------------------------- \n");
 
 
 
