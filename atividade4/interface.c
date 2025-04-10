@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(int argc, char* argv[]) {
 
     printf("_________________________________________________________________________________\n");
     printf("Iniciando Assistente virtual para filmes, por favor aguarde .....................\n");
@@ -8,7 +8,7 @@ int main() {
     printf("Ola, sou seu assistente virtual para ajudar a voce a escolher filmes!\n");
     printf("_________________________________________________________________________________\n");
 
-    // Variáveis corrigidas
+    // Variáveis
     int tipo_de_filme;
     int genero_calmo;
     int genero_intenso;
