@@ -36,16 +36,17 @@ int main(int argc, char* argv[]){
 
     }
 
-    float Media_Geral_turma_parte_1;
-    float Media_Geral_DA_Turma;
+    float soma_notas = 0;
+    for(int i = 0; i < qtdAlunos; i++) {
+        soma_notas += notas[i]; // Soma todas as notas
+    }
 
-    Media_Geral_turma_parte_1 = (notas[0] + notas[1] + notas[2] + notas[3] + notas[4] );
-    Media_Geral_DA_Turma = (Media_Geral_turma_parte_1 / qtdAlunos);
+    float Media_Geral_DA_Turma = soma_notas / qtdAlunos;
     
     printf("_____________________________________________________________\n");
     printf("A Media geral da turma eh:  %.2f \n", Media_Geral_DA_Turma);
     printf("_____________________________________________________________\n");
-
+    
     float maiorNota = notas[0];
     for(int i = 1; i < qtdAlunos; i++) {
         if(notas[i] > maiorNota) {
