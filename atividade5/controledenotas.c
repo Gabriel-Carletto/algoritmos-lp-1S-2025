@@ -13,17 +13,18 @@ int main(int argc, char* argv[]){
     
     printf("Informe a quantidade de alunos:  \n");
     scanf("%d", &qtdAlunos);
-    
+    printf("_____________________________________________________________\n");
+    printf("A quantidade de alunos eh: %d \n", qtdAlunos);
+    printf("_____________________________________________________________\n");
     
     float notas[qtdAlunos];
 
     for(int i = 0; i < qtdAlunos; i++){
-
+        do {
         printf("\n Digite a nota do aluno %d:", i+1);
         scanf("%f", &notas[i]);
-
-
-
+        } while (notas[i] > 10.0 || notas[i] < 0.0);
+    
     }
 
 
@@ -36,9 +37,24 @@ int main(int argc, char* argv[]){
 
     }
 
+
+     int posicao;
+    printf("_____________________________________________________________\n");
+    printf("Digite o numero do aluno desejado (1 a %d): ", qtdAlunos);
+    scanf("%d", &posicao);
+    printf("_____________________________________________________________\n");
+
+    if (posicao >= 1 && posicao <= qtdAlunos) { // Se a contagem começa em 1
+        printf("Nota do aluno %d: %.2f\n", posicao, notas[posicao - 1]);
+    } else {
+        printf("Numero invalido!\n");
+    }
+    
+
+    // Soma todas as notas
     float soma_notas = 0;
     for(int i = 0; i < qtdAlunos; i++) {
-        soma_notas += notas[i]; // Soma todas as notas
+        soma_notas += notas[i]; 
     }
 
     float Media_Geral_DA_Turma = soma_notas / qtdAlunos;
@@ -74,23 +90,6 @@ int main(int argc, char* argv[]){
         }
     }
     printf("A quantidade de alunos aprovados eh: %d \n", aprovados);
-
-
-
-    
-    int posicao;
-    printf("_____________________________________________________________\n");
-    printf("Digite o numero do aluno desejado (1 a %d): ", qtdAlunos);
-    scanf("%d", &posicao);
-
-    if (posicao >= 1 && posicao <= qtdAlunos) { // Se a contagem começa em 1
-        printf("Nota do aluno %d: %.2f\n", posicao, notas[posicao - 1]);
-    } else {
-        printf("Numero invalido!\n");
-    }
-    printf("_____________________________________________________________\n");
-
-
 
     return 0;
 }
